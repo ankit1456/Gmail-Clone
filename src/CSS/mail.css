@@ -1,0 +1,135 @@
+.mail {
+  flex: 1;
+}
+.mail__tools {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(245, 242, 242);
+  padding: 0.5rem 2rem;
+}
+
+.mail__toolsLeft {
+  display: flex;
+}
+
+.mail__subject {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 2rem 1.5rem 3.5rem;
+}
+
+.mail__subjectLeft > p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  max-width: 90rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mail__subjectLeft > button {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.mail__subjectLeft > button:hover {
+  background-color: gray;
+}
+button > .MuiSvgIcon-root {
+  font-size: 1.3rem !important;
+  margin-left: 0.3rem;
+  color: #000;
+}
+
+.mail__messageContainerHeaderLeft,
+.mail__messageContainerHeaderRight {
+  display: flex;
+  align-items: center;
+}
+.mail__messageContainerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2.7rem 2rem 1rem;
+}
+.mail__HeaderAvatar {
+  margin-right: 1rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.tome {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-weight: 500;
+}
+.mail__messageContainer {
+  overflow-y: scroll;
+  text-align: left;
+  padding-bottom: 30rem;
+  height: 100vh;
+}
+.span,
+.mail__messageContainerHeaderRight {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: gray;
+}
+.mail__messageContainerHeaderRight > .MuiSvgIcon-root:not(:last-child) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mail__content {
+  height: 100vh;
+  padding-bottom: 20rem;
+}
+.mail__content > p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mail__imageBg {
+  background-color: rgb(233, 231, 231);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.mail__img {
+  object-fit: contain;
+  max-width: 45%;
+  margin: 1rem;
+}
+
+.btn__group {
+  margin-left: 12rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn__group > button {
+  padding: 0.5rem 1.2rem;
+  margin-right: 2rem;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  color: rgb(90, 89, 89);
+  border-radius: 0.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.btn__group > button > .MuiSvgIcon-root {
+  color: gray;
+  margin-right: 0.5rem;
+  font-size: 2rem !important;
+}
